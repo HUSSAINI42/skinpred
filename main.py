@@ -59,8 +59,8 @@ elif app_mode == "About":
     """)
 
 # Prediction Page
-elif app_mode == "Plant Disease Recognition":
-    st.header("Plant Disease Recognition")
+elif app_mode == "Disease Recognition":
+    st.header("Skin Disease Recognition")
     test_image = st.file_uploader("Choose an Image:")
     if st.button("Show Image"):
         st.image(test_image, width=4, use_column_width=True)
